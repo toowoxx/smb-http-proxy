@@ -1,4 +1,10 @@
-# scjalliance/smb-http-proxy
+# smb-http-proxy
+
+How to install:
+
+```
+go install github.com/toowoxx/smb-http-proxy@latest
+```
 
 ```
 Usage: smb-http-proxy --url-prefix=STRING --source=STRING --user=STRING --password=STRING --domain=STRING --conn-timeout=5s
