@@ -38,7 +38,7 @@ func main() {
 
 	// Prepare an http server
 	s := &http.Server{
-		Addr:    "0.0.0.0:80",
+		Addr:    "0.0.0.0:8080",
 		Handler: http.StripPrefix(c.URLPrefix, http.FileServer(filesOnlyFilesystem{fs})),
 	}
 
