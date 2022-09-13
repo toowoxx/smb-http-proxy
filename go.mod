@@ -1,4 +1,4 @@
-module github.com/scjalliance/smb-http-proxy
+module github.com/toowoxx/smb-http-proxy
 
 go 1.15
 
